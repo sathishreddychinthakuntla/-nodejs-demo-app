@@ -1,12 +1,16 @@
 # -nodejs-demo-app
-# Node.js CI/CD with GitHub Actions
+# CI/CD Node.js App using GitHub Actions
 
-This project automates Docker image building and pushing to Docker Hub using GitHub Actions.
+## Description
+This project demonstrates CI/CD automation for a Node.js app using GitHub Actions. It runs tests, builds a Docker image, and pushes it to DockerHub.
 
-## Features
+## Technologies
+- Node.js
+- Docker
+- GitHub Actions
 
-- Node.js + Express sample app
-- Dockerized
-- GitHub Actions CI/CD
-- Auto build + push to DockerHub on `main` push
-
+## Workflow Summary
+1. Triggered on push to `main`
+2. Installs dependencies and runs tests
+3. Builds Docker image
+4. Pushes image to DockerHub
